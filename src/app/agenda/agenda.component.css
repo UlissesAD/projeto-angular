@@ -1,0 +1,17 @@
+.tabs .tab a.active {
+    background-color: #ee6e73;
+    color: white;
+}
+
+.tabs .tab a {
+   
+    color: black;
+}
+
+.title{
+    text-align: center;
+}
+
+.box{
+   padding: 5%;
+}

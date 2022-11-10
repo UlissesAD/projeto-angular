@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/*
+.large-box{
+  background: #141e27;
+  border-radius: 10px;
+  padding: 10% ;
+  text-align: justify;
+  }
+
+.box{
+margin: 1px;
+min-width: 20rem;
+}
+
+.box-header {
+  max-height: 50%;
+  background: #dedede;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 20% ;
+    padding-bottom: 20% ;
+    }
+
+.box-gradient{
+  background: linear-gradient(45deg, #eeedde, #203239);
+}
+
+.box-bottom {
+  background: #141e27;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 10% ;
+  padding-bottom: 20% ;
+}
+
+.box-text {
+  padding: 10px 0px;
+  color: #eeedde;
+}
+
+.card-title {
+  background: linear-gradient(45deg, #e0ddaa, #203239);
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.card-title-large{
+  background: linear-gradient(45deg, #e0ddaa, #203239);
+  font-size: 20px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+*/

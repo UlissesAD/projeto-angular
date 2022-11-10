@@ -1,0 +1,52 @@
+<div class="row">
+  <h5 *ngIf="!editar">Nova Tarefa</h5>
+  <h5 *ngIf="editar">Editar Tarefa</h5>
+
+  <form class="col s12" [formGroup]="form">
+    <div class="row">
+      <div class="input-field col s6">
+        <input
+          id="titulo"
+          type="text"
+          formControlName="titulo"
+          [ngClass]="{ invalid: submitted && hasError('titulo') }"
+          placeholder="titulo da atividade"
+        />
+        <label for="titulo"></label>
+        <span
+          *ngIf="hasError('titulo')"
+          class="helper-text"
+          data-error="Por favor insira um titulo válido"
+        ></span>
+      </div>
+      <div class="input-field col s6">
+        <input
+          id="periodo"
+          type="text"
+          placeholder="periodo"
+          [ngClass]="{ invalid: submitted && hasError('periodo') }"
+          formControlName="periodo"
+        />
+        <label for="periodo"></label>
+        <span
+          *ngIf="hasError('periodo')"
+          class="helper-text"
+          data-error="Por favor insira um periodo válido"
+        ></span>
+      </div>
+    </div>
+
+    <div>
+      <a
+        class="btn-floating btn-large waves-effect waves-light red right"
+        (click)="onSubmit()"
+        ><i class="material-icons">add</i></a
+      >
+      <a
+        class="btn-floating btn-large waves-effect waves-light red left"
+        (click)="onCancel()"
+        ><i class="material-icons">cancel</i></a
+      >
+    </div>
+  </form>
+</div>

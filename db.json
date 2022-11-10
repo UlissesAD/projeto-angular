@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "usuario@email.com",
+      "senha": "123"
+    }
+  ],
+  "agenda": [
+    {
+      "id": 0,
+      "nome": "Domingo"
+    },
+    {
+      "id": 1,
+      "nome": "Segunda"
+    },
+    {
+      "id": 2,
+      "nome": "Terça"
+    },
+    {
+      "id": 3,
+      "nome": "Quarta"
+    },
+    {
+      "id": 4,
+      "nome": "Quinta"
+    },
+    {
+      "id": 5,
+      "nome": "Sexta"
+    },
+    {
+      "id": 6,
+      "nome": "Sabado"
+    }
+  ],
+  "listas": [
+    {
+      "id": 1,
+      "nome": "To-Do",
+      "totalItens": 2,
+      "itens": [
+        {
+          "id": 0,
+          "nome": "Tarefa de PCD"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Fazer",
+      "totalItens": 7
+    },
+    {
+      "id": 3,
+      "nome": "Não",
+      "totalItens": 0,
+      "itens": []
+    }
+  ],
+  "TarefasDiarias": [
+    {
+      "id": 0,
+      "dia": 0,
+      "nome": "Atividade teste dom",
+      "periodo": "12:00-18:10"
+    },
+    {
+      "id": 1,
+      "dia": 1,
+      "nome": "Atividade teste seg",
+      "periodo": "12:00-18:10"
+    },
+    {
+      "id": 2,
+      "dia": 1,
+      "nome": "Atividade teste seg2",
+      "periodo": "12:00-18:10"
+    }
+  ]
+}

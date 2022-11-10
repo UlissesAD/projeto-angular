@@ -1,0 +1,40 @@
+<div class="card">
+  <div *ngIf="Lista$ | async as Lista; else loading">
+    <div class="card-content">
+      <h5 class="title">Agenda da semana</h5>
+    </div>
+    <div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+        <li class="tab" *ngFor="let item of Lista" [routerLink]="[item.id]">
+          <a routerLinkActive="active">{{ item.nome }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-content grey lighten-4">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="box" *ngIf="error$ | async; else loadingNoError">
+    <div>
+      <div class="card red">
+        <div class="card-content white-text">
+          <h6>Erro ao carregar Agenda. Tente Novamente mais tarde.</h6>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <a class="waves-effect waves-light btn left" (click)="onRefresh()"
+        >Recarregar</a
+      >
+    </div>
+  </div>
+
+  <ng-template #loadingNoError>
+    <div class="card-content">
+      <h5 class="title">Carregando</h5>
+    </div>
+  </ng-template>
+</ng-template>

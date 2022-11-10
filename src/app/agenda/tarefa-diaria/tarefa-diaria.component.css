@@ -1,0 +1,19 @@
+.row{
+    margin: 1%;
+    
+}
+
+.btn{
+    height: 36px;
+    padding: 0, 12px;
+}
+
+.titleBox{
+    height: 36px;
+    letter-spacing: .5px;
+  line-height: 14px;
+  display: table-cell;
+  vertical-align: middle;
+ 
+ 
+}

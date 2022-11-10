@@ -1,0 +1,34 @@
+<div class="row texto-alinhado" (click)="select()">
+  <div class="col s2">
+    <p class="titleBox">{{ tarefa.periodo }}</p>
+  </div>
+  <div class="col s6">
+    <p class="titleBox">{{ tarefa.nome }}</p>
+  </div>
+  <div class="col s2">
+    <div *ngIf="marked">
+      <button
+        class="btn waves-effect waves-light cyan"
+        type="submit"
+        name="action"
+        (click)="editarTarefa()"
+      >
+        Editar
+        <i class="material-icons right">send</i>
+      </button>
+    </div>
+  </div>
+  <div class="col s2">
+    <div *ngIf="marked">
+      <button
+        class="btn waves-effect waves-light red"
+        type="submit"
+        name="action"
+        (click)="apagarTarefa()"
+      >
+        apagar
+        <i class="material-icons right">cancel</i>
+      </button>
+    </div>
+  </div>
+</div>
