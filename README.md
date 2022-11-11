@@ -1,4 +1,11 @@
-# ProjetoAngular
+# ProjetoAngular - ToDo
+
+this is an simple weekly to-do list made in angular and with json-server to sumulate HTTP calls.
+
+this project uses directives, databinding, http, reactiveForms, custom Validators, routes, routes guard and behaviorSubject.
+about css is made with materialize css despite this css framework is abandoned.
+
+# Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
