@@ -3,7 +3,7 @@
 this is an simple weekly to-do list made in angular and with json-server to sumulate HTTP calls.
 
 this project uses directives, databinding, http, reactiveForms, custom Validators, routes, routes guard and behaviorSubject.
-about css is made with materialize css despite this css framework is abandoned.
+about css is made with materialize despite this css framework is abandoned.
 
 # Angular
 
